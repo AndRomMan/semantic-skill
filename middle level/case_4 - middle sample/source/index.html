@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" placeholder="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Вашему питомцу будет комфортно в нашей уютной гостинице. А вы будете спокойны за него">
+    <title>Котейка - гостиница для кошек и котов</title>
+  </head>
+
+  <body>
+    <!-- Шапка сайта -->
+    <header class="main-header">
+      <nav class="navbar">
+        <a class="navbar__logo">
+          <img src="img/logo.svg" width="184" height="152" alt="Лого гостиницы">
+        </a>
+
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#">Почему мы?</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Номера</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Отзывы</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Как нас найти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Основное содержимое страницы -->
+    <main class="main-main">
+      <h1 class="main-main__title visually-hidden">Уютная гостиница для котов и кошек “Котейка”</h1>
+
+      <section class="promo">
+        <h2 class="promo__title">Котейка</h2>
+        <p class="promo__place">Санкт-Петербург</p>
+        <p class="promo__title">Уютная гостиница для котов и кошек</p>
+        <a href="catalog.html">Забронировать</a>
+        <img src="img/photo-promo-1.jpg" width="1366" height="504" alt="Уютная гостиница для котов и кошек">
+      </section>
+
+      <section class="features">
+        <h2 class="features__title">
+          Почему мы?
+        </h2>
+
+        <ul class="features__list">
+          <li class="features__item advantage-card">
+            <h3 class="advantage-card__title">
+              Комфортная температура
+            </h3>
+            <p class="advantage-card__description">
+              Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.
+            </p>
+          </li>
+
+          <li class="features__item advantage-card">
+            <h3 class="advantage-card__title">
+              Видеонаблюдение
+            </h3>
+            <p class="advantage-card__description">
+              Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона или компьютера.
+            </p>
+          </li>
+
+          <li class="features__item advantage-card">
+            <h3 class="advantage-card__title">
+              Услуги Зоотакси
+            </h3>
+            <p class="advantage-card__description">
+              Мы приедем за вашим питомцем в любой район Санкт-Петербурга.
+            </p>
+          </li>
+
+          <li class="features__item advantage-card">
+            <h3 class="advantage-card__title">
+              Сбалансированное питание
+            </h3>
+            <p class="advantage-card__description">
+              Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.
+            </p>
+          </li>
+
+          <li class="features__item advantage-card">
+            <h3 class="advantage-card__title">
+              Ежедневные прогулки
+            </h3>
+            <p class="advantage-card__description">
+              По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.
+            </p>
+          </li>
+
+          <li class="features__item advantage-card">
+            <h3 class="advantage-card__title">
+              Лучшие ветеринары
+            </h3>
+            <p class="advantage-card__description">
+              В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="room-reservation">
+        <h2 class="room-reservation__title">Номера</h2>
+
+        <section class="room-reservation__description room-descrption">
+          <h3 class="room-descrption__title">
+            Эконом плюс
+          </h3>
+
+          <dl class="room-descrption__list">
+
+            <dt class="room-descrption__option">
+              Площадь -
+            </dt>
+            <dd class="room-description__value">
+              0,90 м2
+            </dd>
+
+            <dt class="room-descrption__option">
+              Размеры (ШхГхВ) —
+            </dt>
+            <dd class="room-description__value">
+              90х100х180 см
+            </dd>
+
+            <dt class="room-descrption__option">
+              Цена за сутки:
+            </dt>
+            <dd class="room-description__value">
+              200₽
+            </dd>
+          </dl>
+          <img class="room-descrption__img" src="img/photo-order-1.jpg" alt="фото номера эконом плюс" width="600" height="404">
+        </section>
+
+        <section class="room-reservation__form order-form">
+          <h3 class="order-form__title">
+            Забронировать номер
+          </h3>
+          <form class="room-reservation__form order-form" action="#" method="post">
+            <label class="visually-hidden" for="order-username">Ваше имя</label>
+            <input class="order-form__input" type="text" id="order-username" name="order-username" placeholder="Ваше имя">
+
+            <label class="visually-hidden" for="order-petname">Имя Питомца</label>
+            <input class="order-form__input" type="text" id="order-petname" name="order-petname" placeholder="Имя Питомца">
+
+            <label class="visually-hidden" for="order-userphone">Телефон</label>
+            <input class="order-form__input" type="tel" id="order-userphone" name="order-userphone" placeholder="Телефон">
+
+            <label class="visually-hidden" for="order-usermail">E-mail</label>
+            <input class="order-form__input" type="email" id="order-usermail" name="order-usermail" placeholder="E-mail">
+
+            <p>
+              <label class="visually-hidden" for="order-arrival">Дата заезда с</label>
+              <input class="order-form__input" type="text" id="order-arrival" name="order-arrival" placeholder="26.01.2020">
+
+              <label class="visually-hidden" for="order-departure">по</label>
+              <input class="order-form__input" type="text" id="order-departure" name="order-departure" placeholder="26.02.2020">
+            </p>
+
+            <button type="submit">
+              Отправить заявку
+            </button>
+          </form>
+        </section>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__title">Отзывы</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item reviews-card">
+            <blockquote>
+              <p class="reviews-card__usertext">
+                Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!
+              </p>
+              <cite class="reviews-card__username">
+                Валерия Гришаева
+              </cite>
+              <time class="reviews-card__date" datetime="2019-11-15 00:00">
+                15 ноября, 2019
+              </time>
+            </blockquote>
+          </li>
+
+          <li class="reviews__item reviews-card">
+            <blockquote>
+              <p class="reviews-card__usertext">
+                Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.
+              </p>
+              <cite class="reviews-card__username">
+                Екатерина Минаева
+              </cite>
+              <time class="reviews-card__date" datetime="2019-10-10 00:00">
+                10 октября, 2019
+              </time>
+            </blockquote>
+          </li>
+
+          <li class="reviews__item reviews-card">
+            <blockquote>
+              <p class="reviews-card__usertext">
+                Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.
+              </p>
+              <cite class="reviews-card__username">
+                Павел Нечаев
+              </cite>
+              <time class="reviews-card__date" datetime="2019-08-02 00:00">
+                2 августа, 2019
+              </time>
+            </blockquote>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="main-footer">
+      <section class="contacts">
+        <h2 class="contacts__title">
+          Как нас найти
+        </h2>
+
+        <dl class="contacts__list">
+          <dt class="contacts__point">
+            Адрес
+          </dt>
+          <dd class="contacts__description">
+            Санкт-Петербург, ул Большая Конюшенная, д 19
+          </dd>
+
+          <dt class="contacts__point">
+            Режим работы
+          </dt>
+          <dd class="contacts__description">
+            Ежедневно, с 9:00 до 20:00
+          </dd>
+
+          <dt class="contacts__point">
+            Телефон
+          </dt>
+          <dd class="contacts__description">
+            <a href="tel:88003335599">
+              8 (800) 333-55-99
+            </a>
+          </dd>
+
+          <dt class="contacts__point">
+            E-mail
+          </dt>
+          <dd class="contacts__description">
+            <a href="mailto:info@cat-hotel.ru">
+              info@cat-hotel.ru
+            </a>
+          </dd>
+        </dl>
+
+        <dt class="socials__title">
+          Социальные сети
+        </dt>
+        <dd class="contacts__description">
+          <ul class="socials__list socials-list">
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="https://www.facebook.com">Facebook</a>
+            </li>
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="https://www.instagram.com">Instagtam</a>
+            </li>
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="https://vk.com">ВКонтакте</a>
+            </li>
+          </ul>
+        </dd>
+
+        <img class="contacts__map" src="img/map.jpg" width="798" height="580" alt="Карта">
+      </section>
+
+      <section class="footer-nav navbar">
+        <h2 class="visually-hidden">
+          Дополнительная навигация по сайту
+        </h2>
+        <a class="navbar__logo" aria-label="Лого гостиница для кошек">
+          <img src="img/logo.svg" width="184" height="152" alt="Лого гостиницы">
+        </a>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#">Почему мы?</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Номера</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Отзывы</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Как нас найти</a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          © 2019 Все права защищены
+        </p>
+        <a href="#">
+          Политика конфиденциальности
+        </a>
+
+      </section>
+
+
+    </footer>
+
+    <!-- <script type="module" src="js/main.min.js"></script> -->
+    <!-- <script type="module" src="js/module.min.js"></script> -->
+  </body>
+
+</html>

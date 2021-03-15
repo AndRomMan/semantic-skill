@@ -1,0 +1,28 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#752357",
+    "activityBar.activeBorder": "#5b7b25",
+    "activityBar.background": "#752357",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#5b7b25",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#4e173a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#752357",
+    "titleBar.activeBackground": "#4e173a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#4e173a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#4e173a",
+  "cSpell.words": [
+    "C",
+    "Cветодиодные",
+    "Holodnaya",
+    "Hovertrax",
+    "rizor",
+    "гироскутеров"
+  ],
+  "svg.preview.background": "transparent"
+}

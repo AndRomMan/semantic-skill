@@ -1,0 +1,57 @@
+// SCSS compilation check
+body {
+  // background-color: lightskyblue;
+}
+
+// background for retina display
+$retina-dppx: 1.5dppx;
+$retina-dpi: 144dpi;
+// (min-resolution: $retina-dpi),
+// (min-resolution: $retina-dppx)
+
+// базовое
+// $extrasmall_width: 320px;
+// =============================
+// до min=375px держать ширину 343
+$small_breakpoint: 375px;
+$small_width: 343px;
+
+// =============================
+// до min=600px держать ширину 568
+$medium_breakpoint: 600px;
+$medium_width: 568px;
+
+// =============================
+// до min=900px держать ширину 852
+$large_breakpoint: 900px;
+$large_width: 852px;
+
+// =============================
+// до min=1200px держать ширину 1152
+$extralarge_breakpoint: 1200px;
+$extralarge_width: 1152px;
+
+
+// -------------------------- basic colors
+$basic_accent: #ce5d4e;
+$basic_hover_accent: #d14c13;
+// -------------------------- background colors
+$background_high_light: #9b7b57;
+$background_modal_light: #fbf8f8;
+// -------------------------- font colors
+$font_deep_dark: #141517;
+$font_deep_dark_a05: rgba($font_deep_dark, 0.5);
+$font_deep_dark_a07: rgba($font_deep_dark, 0.7);
+$font_middle_dark: #48494d;
+$font_dark: #2c2e3f;
+$font_dark_a03: rgba($font_dark, 0.3);
+$font_dark_a07: rgba($font_dark, 0.7);
+$font_light: #fbf8f8;
+$font_high_light: #ffffff;
+$font_accent: $basic_accent;
+// -------------------------- font colors
+$outline-color: rgb(16, 33, 190);
+
+// .button:hover,
+// .button:focus,
+// .button:active

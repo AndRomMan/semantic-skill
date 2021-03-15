@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Хороший выбор комфортных номеров для вашего питомца">
+    <title>Каталог гостиницы "Котейка"</title>
+  </head>
+
+  <body>
+    @@include('./html_modules/header.html')
+
+    <!-- Основное содержимое страницы -->
+    <main class="room-main">
+      <h1 class="room-main__title visually-hidden">Карточка номера Супер-Люкс</h1>
+
+      <section class="card">
+        <h2>Супер-Люкс</h2>
+        <p class="card-photo-full">
+          <img src="img/photo-full.jpg" width="500" height="396" alt="Фото">
+        </p>
+
+        <ul class="card-photo-preview">
+          <li class="card-photo-preview-item">
+            <img src="img/photo-1.jpg" width="70" height="112" alt="Фото 1">
+          </li>
+          <li class="card-photo-preview-item">
+            <img src="img/photo-2.jpg" width="70" height="112" alt="Фото 2">
+          </li>
+          <li class="card-photo-preview-item">
+            <img src="img/photo-3.jpg" width="70" height="112" alt="Фото 3">
+          </li>
+        </ul>
+
+        <dl>
+          <dt>Размеры (ШхГхВ) - </dt>
+          <dd>180х160х180 см</dd>
+
+          <dt>Площадь - </dt>
+          <dd>2,88 м<sup>2</sup></dd>
+
+          <dt>Оснащение номера</dt>
+          <dd>
+            <ul class="equipment-list">
+              <li class="equipment-item equipment-item-sofa">Лежак</li>
+              <li class="equipment-item equipment-item-house">Домик</li>
+              <li class="equipment-item equipment-item-toy">Игровой комплекс - 3 яруса</li>
+              <li class="equipment-item equipment-item-cat-tree">Когтеточка</li>
+            </ul>
+          </dd>
+
+          <dt>Цена за сутки: </dt>
+          <dd>600 ₽</dd>
+        </dl>
+
+        <a href="#">Забронировать</a>
+
+      </section>
+
+      <section class="room-reservation">
+        <h2>Другие номера</h2>
+        <section class="room-reservation-description">
+          <h3>Комфорт</h3>
+          <img src="img/photo-order-2.jpg" width="600" height="404" alt="Номер Комфорт">
+          <dl class="description-list">
+            <dt>Площадь - </dt>
+            <dd>1,13 м<sup>2</sup></dd>
+            <dt>Размеры (ШхГхВ) — </dt>
+            <dd>100х125х180 см</dd>
+            <dt>Цена за сутки: </dt>
+            <dd>250 ₽</dd>
+          </dl>
+        </section>
+        <section class="room-reservation-form">
+          <h3>Забронировать номер</h3>
+          <form id="reservation-form" action="#" method="post">
+            <label for="reservation-form-name" class="visually-hidden">Ваше имя</label>
+            <input type="text" name="reservation-form-name" id="reservation-form-name" placeholder="Ваше имя">
+            <label for="reservation-form-pet" class="visually-hidden">Имя Питомца</label>
+            <input type="text" name="reservation-form-pet" id="reservation-form-pet" placeholder="Имя Питомца">
+            <label for="reservation-form-phone" class="visually-hidden">Телефон</label>
+            <input type="tel" name="reservation-form-phone" id="reservation-form-phone" placeholder="Телефон">
+            <label for="reservation-form-email" class="visually-hidden">E-mail</label>
+            <input type="email" name="reservation-form-email" id="reservation-form-email" placeholder="E-mail">
+            <p>
+              <label for="reservation-form-begin-date">Дата заезда с</label>
+              <input type="text" name="reservation-form-begin-date" id="reservation-form-begin-date" placeholder="26.01.2020">
+              <label for="reservation-form-end-date">по</label>
+              <input type="text" name="reservation-form-end-date" id="reservation-form-end-date" placeholder="26.02.2020">
+            </p>
+            <button type="submit">Отправить заявку</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+
+    @@include('./html_modules/footer.html')
+
+
+    <!-- <script src="js/main.min.js"></script> -->
+    <!-- <script type="module" src="js/main.min.js"></script>
+    <script type="module" src="js/header-nav.min.js"></script> -->
+  </body>
+
+</html>
+https: true
